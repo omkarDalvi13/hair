@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tahoma';
+    font-weight: 500;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    width: 100%;
+}
+
+main #im img {
+    width:100%;
+    min-height: 100vh;
+    position: fixed
+}
+
+nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.996);
+    padding: 10px 20px;
+    border-bottom: 2px solid pink;
+}
+
+nav h1 {
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: palevioletred;
+}
+
+nav #nav1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+nav #nav1 a {
+    text-decoration: none;
+    font-size: 25px;
+    color: pink;
+}
+
+nav #nav1 a:hover {
+    color: palevioletred;
+    transform: scale(1.04);
+    transition: 0.5s;
+}
+
+nav button {
+    padding: 10px 20px;
+    font-size: 22px;
+    color: palevioletred;
+    border: 2px solid palevioletred;
+    border-radius: 30px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: pink;
+    color: white;
+    border: 2px solid white;
+    transform: scale(1.09);
+    transition: 0.6s;
+}
+
+#page1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 192, 203, 0.468);
+}
+
+#page1-1 {
+    width: 50%;
+    height: 100vh;
+    padding-top: 180px;
+    padding-left: 100px;
+}
+
+#page1-1 h1 {
+    font-size: 140px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red
+}
+
+#p2 {
+    width: 50%;
+    height: 100vh;
+    padding-top: 30px;
+}
+
+#p2 img {
+    width: 500px;
+    height: 600px;
+    border-radius: 40px;
+    margin-left: 200px;
+    object-fit: cover;
+    transition: 1s;
+}
+
+#page1-1 button {
+    padding: 10px 15px;
+    font-size: 25px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 40px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#page1-1 button:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+#p2 img:hover {
+    transform: scale(1.05);
+}
+
+#page1-1 h2 {
+    color: rgb(56, 49, 49) margin-top: 10px;
+}
+
+#page2 {
+    position: relative;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 100px;
+}
+
+#page2 #p1 {
+    width: 50%;
+    padding: 40px;
+    padding-top: 90px;
+    
+}
+#page2 #p1 h1{
+    color: palevioletred;
+    font-size: 70px;
+    margin-top: 30px;
+}
+#page2 #p1 h3{
+    width:70%;
+    color: pink;
+    margin-top: 30px;
+}
+
+#page2 #p3{
+    width: 50%;
+    min-height: 100px;
+}
+
+#page2 #p3 img {
+    width:100%;
+    height:705px ;
+    border-radius:0px;
+    object-fit: cover;
+}
+#page3{
+    position: relative;
+    width: 100%;
+    background-color: rgba(216, 112, 147, 0.5);
+    
+}
+#page3 h1{
+    font-size:600px;
+    color: whitesmoke;
+    overflow: hidden;
+}
